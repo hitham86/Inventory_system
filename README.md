@@ -34,11 +34,27 @@ A command-line inventory management tool built in Python, designed for small-sca
 
 
 
+
+
+
+
+
+
+
+
 inventory/
 ├── inventory.csv # Stores the current inventory data
 ├── logs.csv # Logs all user operations
 ├── invalid.txt # List of banned product names
 ├── inventory.py # Main application logic
+
+
+
+
+
+
+
+
 
 
 
@@ -91,6 +107,26 @@ CSV file support
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $ python inventory.py
 select a following option
 1 add products
@@ -104,6 +140,22 @@ please enter the name of your product: apples
 please enter the price: 0.99
 please enter the quantity: 100
 product successfully added!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
